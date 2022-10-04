@@ -1,0 +1,54 @@
+=== TP1 ===
+Q1 : Le prompt est un invite de commande permetant d'éxécuter des commande pour effecué des actions sur l'ordinateur.
+Q2 : Un fichier est un manière de stocker des données de manière organiser.
+Q3 : Il existe les fichiers binaire et les fichiers texte.
+Q4 : Le shell est l'interface entre l'homme et la machine permettant d'accéder au noyau d'un OS.
+Q5 : Le bach est un langage de commande.
+Q6 : Oui.
+Q7 : L'extension .txt signifie que le fichier est composé de texte.
+Q8 : mkdir permet de créer un repértoire.
+Q9 : La différence est dans l'encodage.
+Q10 : Une session de travail est liée à un utilisateur. Cette session permet d'avoir un espace distinc des autres utilisateur.
+
+Exercice n°1 : Manipulation avec des commandes de base.
+Q11 :	a) Affiche le nombre de ligne du fichier "bonjour.txt"
+		b) Affiche le contenu du fichier "bonjour.txt".
+		c) Affiche le contenu du fichier en commençant par la dernière ligne.
+		d) Affiche la premier ligne du fichier "bonjour.txt".
+		e) Affiche les deux dernière ligne du fichier "bonjour.txt".
+		f) Vérifier l'intégriter du fichier "bonjour.txt" et renvoir l'empreinte numérique du fichier "boujour.txt" dans un fichier "bonjour.md"
+		g) Vérifie si l'empreinte numérique correspond au bien au fichier.
+		h) Ajoute le texte "fin" à la fin du fichier texte "bonjour.txt".
+		i) Vérifie si l'empreinte numérique génrer correpond toujours, ici non pusique le fichier "bonjour.txt" à était modifier sans recalculer l'empreinte numérique assoscier.
+		j) Créer le fichier texte "bonjour.txt" si il n'est pas existant.
+		k) Remplace tout les espaces (" ") par des points (".") du fichier "bonjour.txt" sans le modifier.
+
+Q12 : Pour supprimer un fichier entrer "rm bonjour.txt".
+
+Exercice n°2 : Deux programme qui collaborent.
+Q13 : "head -2 bonjour.txt | tail -1". Le chiffre 2 pouvant être remplacé par la ligne à afficher.
+
+Exercice n°3 : Comptage de caractères
+Q14 :	a) Ecrit "Hello world" dans le fichier "bonjour.txt".
+		b) Affiche le nombre de caractères pour chaque fichier spécifier en argument ici pour le fichier "bonjour.txt".
+		c) Affiche le nombre de caractères du contenu lu dans le fichier "bonjour.txt".
+		d) Affiche les information détaillé du ficher "bonjour.txt".
+Q15 : La chaine de caractère visualisable contien 11 caractère + un retour a la ligne "\n" codé sur un octet.
+
+Exercice n°4 : Surveillance de fichiers
+Q16 : "tail -f bonjout.txt"
+
+Exercice n°5 : Format des fichers texte ?
+Q17 : l
+L'option "-n" retire l'ajout du saut de page "/n" en fin de ligne.
+L'option "-e" permet d'interpreter les caractère spéciaux avec les anti-slach. (exemple "\n" pour une fin de ligne.)
+
+Exercice n°6 :L'encodage des caractères
+Q18 : LANG=C.UTF-8
+Q19 : La lettre "à" encodé en UTF-8 à pour valeur hexadecimal 0xC3A0
+Q21 : La commande "cat "bonjout.txt" n'affiche plus rien.
+Q22 : Le carractère "à" encodé en ISO8859-1 à pour valeur hexadecimal E0
+Q23 : Cela ne correpond pas à la valeur précedement trouvé avec l'encodage UTF-8.
+Q24 : "iconv -l | wc -l" donne 1179 encodage différent.
+Q25 : "recode -l | wc -l" donne 281 encodage différent.
+
